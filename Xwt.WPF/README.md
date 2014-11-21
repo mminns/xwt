@@ -1,0 +1,11 @@
+NuGet
+-----
+
+Debug releases
+
+Pack
+> ..\.nuget\nuget.exe pack -Properties Configuration=Win-NoGtk-Debug -OutputDirectory bin\Win-NoGtk-Debug -Symbols
+
+Push
+> ..\.nuget\nuget.exe push bin\Win-NoGtk-Debug\Xwt.WPF.0.1.0.0.nupkg 576ff829-5d43-4c87-bd2f-174136ddef2a -Source https://www.myget.org/F/xwt/api/v2/package
+> ..\.nuget\nuget.exe push bin\Win-NoGtk-Debug\Xwt.WPF.0.1.0.0.Symbols.nupkg 576ff829-5d43-4c87-bd2f-174136ddef2a -Source https://nuget.symbolsource.org/MyGet/xwt
