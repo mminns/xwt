@@ -90,6 +90,11 @@
     <OutputPath>bin\Linux-NoGtk3-Debug</OutputPath>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Mac-NoGtk-Debug|AnyCPU' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Mac-NoGtk-Debug</OutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Xwt.WPF\Xwt.WPF.csproj">
       <Project>{C93D746E-1586-4D4F-B411-BF5A966E6A08}</Project>

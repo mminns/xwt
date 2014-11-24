@@ -230,7 +230,8 @@ namespace Xwt.Mac
 				ctype = NSCursor.ResizeUpDownCursor;
 			else if (cursor == CursorType.Invisible)
 				// TODO: load transparent cursor
-				Cursor = NSCursor.ArrowCursor;
+				// Cursor = NSCursor.ArrowCursor;
+				System.Console.WriteLine ("erk");
 			else
 				ctype = NSCursor.ArrowCursor;
 			// TODO: assign the cursor
