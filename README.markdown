@@ -218,3 +218,21 @@ If you want a background thread to run some code on the main loop, you
 use the Application.Invoke (Action action) method.   The provided
 "action" method is guaranteed to run on the main loop.
 
+MMinns Deve Env
+------------------
+
+Linux
+
+MonoDevelop 5.5+
+Mono 3.10.0
+
+Windows
+.NET 4.5.2
+VisualStudio 2013 update 4
+
+Mac
+
+Mono 3.10.0
+Xamarin Studio 5.5+
+
+NB make sure for both MonoDevelop and Xamarin Studio that mono 3.10.0 is selected as the runtime.
